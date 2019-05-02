@@ -69,7 +69,7 @@ As a rule of thumb, changes are obvious fixes if they do not introduce any new f
 ## Javascript
 
 We use our own eslint-config-freedom for development, but we use [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base) for production and the refactoring part of the TDD cycle.
-We do this by setting `process.env.NODE_ENV`, and travis makes sure that this is production when code is commited.
+We do this by setting `process.env.NODE_ENV`, and husky makes sure that this is production when code is commited.
 
 ### Commit Messages
 
